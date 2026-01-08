@@ -1,0 +1,354 @@
+[
+  {
+    "id": "job-1",
+    "score": 0.5706,
+    "score_raw": 0.5106,
+    "score_preset": 0.5106,
+    "score_preset_adjustment": 0.0,
+    "score_intent_adjusted": 0.5706,
+    "score_intent_adjustment": 0.06,
+    "score_adjusted": 0.5706,
+    "score_adjustment": 0.0,
+    "score_feedback_adjustment": 0.0,
+    "feedback_applied": false,
+    "feedback_tags": [
+      "company:acme_ai",
+      "seniority:lead",
+      "language:en"
+    ],
+    "adjusted_by": "preset:balanced + intent:bonus:principal_architecture",
+    "adjusted_by_parts": [
+      "preset:balanced",
+      "intent:bonus:principal_architecture"
+    ],
+    "preset_name": "balanced",
+    "score_breakdown": {
+      "skills": 0.3563,
+      "title": 0.4364,
+      "experience": 0.0,
+      "language": 1.0,
+      "location": 1.0,
+      "alignment": 0.8077,
+      "capability_depth": 0.3563,
+      "role_target_match": 0.4364
+    },
+    "intent": {
+      "role_intent": "principal_architecture",
+      "job_track": "executive_strategy",
+      "job_intent_tags": [
+        "executive_strategy"
+      ],
+      "intent_alignment": "bonus",
+      "intent_bonus": 0.06,
+      "intent_penalty": 0.0,
+      "intent_adjustment": 0.06,
+      "out_of_scope": false
+    },
+    "qualification": {
+      "coverage": 1.0,
+      "requirements": [
+        {
+          "requirement": "We need an AI strategy leader to define roadmap and governance. Experience with cloud security and automation. Salary EUR 100,000 per year.",
+          "status": "matched",
+          "matches": [
+            {
+              "type": "skill",
+              "label": "AI",
+              "text": "Rob Mumin  AI strategy leader with experience in cloud security, automation, and product delivery.  Skills: - AI - Machine Learning",
+              "score": 0.28
+            },
+            {
+              "type": "skill",
+              "label": "Strategy",
+              "text": "Rob Mumin  AI strategy leader with experience in cloud security, automation, and product delivery.  Skills: - AI - Machine Learning -",
+              "score": 0.28
+            },
+            {
+              "type": "skill",
+              "label": "Cloud",
+              "text": "Rob Mumin  AI strategy leader with experience in cloud security, automation, and product delivery.  Skills: - AI - Machine Learning - Strategy - Cloud - Security - Pytho",
+              "score": 0.2692
+            }
+          ]
+        }
+      ],
+      "gaps": []
+    },
+    "job_analysis": {
+      "skill_weighting": {
+        "entries": [
+          {
+            "skill": "AI",
+            "type": "hard",
+            "mentions": 0,
+            "evidence_hits": 1,
+            "signal": 2,
+            "committee": {
+              "score": 3,
+              "votes": [
+                {
+                  "source": "evidence",
+                  "weight": 1
+                },
+                {
+                  "source": "seeded skill",
+                  "weight": 1
+                },
+                {
+                  "source": "taxonomy match",
+                  "weight": 1
+                }
+              ],
+              "decision": "accept"
+            },
+            "level": "major",
+            "weight": 1.0
+          },
+          {
+            "skill": "Cloud",
+            "type": "hard",
+            "mentions": 0,
+            "evidence_hits": 1,
+            "signal": 2,
+            "committee": {
+              "score": 3,
+              "votes": [
+                {
+                  "source": "evidence",
+                  "weight": 1
+                },
+                {
+                  "source": "seeded skill",
+                  "weight": 1
+                },
+                {
+                  "source": "taxonomy match",
+                  "weight": 1
+                }
+              ],
+              "decision": "accept"
+            },
+            "level": "median",
+            "weight": 1.0
+          },
+          {
+            "skill": "Security",
+            "type": "hard",
+            "mentions": 0,
+            "evidence_hits": 1,
+            "signal": 2,
+            "committee": {
+              "score": 3,
+              "votes": [
+                {
+                  "source": "evidence",
+                  "weight": 1
+                },
+                {
+                  "source": "seeded skill",
+                  "weight": 1
+                },
+                {
+                  "source": "taxonomy match",
+                  "weight": 1
+                }
+              ],
+              "decision": "accept"
+            },
+            "level": "minor",
+            "weight": 1.0
+          },
+          {
+            "skill": "Strategy",
+            "type": "hard",
+            "mentions": 0,
+            "evidence_hits": 1,
+            "signal": 2,
+            "committee": {
+              "score": 3,
+              "votes": [
+                {
+                  "source": "evidence",
+                  "weight": 1
+                },
+                {
+                  "source": "seeded skill",
+                  "weight": 1
+                },
+                {
+                  "source": "taxonomy match",
+                  "weight": 1
+                }
+              ],
+              "decision": "accept"
+            },
+            "level": "minor",
+            "weight": 1.0
+          }
+        ],
+        "tiers": {
+          "major": [
+            "AI"
+          ],
+          "median": [
+            "Cloud"
+          ],
+          "minor": [
+            "Security",
+            "Strategy"
+          ]
+        },
+        "notes": "Weights derived from source mentions and evidence hits."
+      },
+      "role_abstractions": {
+        "capabilities": [],
+        "traits": [],
+        "notes": "Abstracted from weighted skills to align with job description language."
+      },
+      "committee_review": {
+        "skills": [],
+        "abstractions": [
+          {
+            "kind": "capability",
+            "category": "AI Strategy & Transformation",
+            "summary": "Evidence-backed AI strategy and transformation capability.",
+            "supporting_skills": [
+              {
+                "skill": "AI",
+                "level": "major",
+                "weight": 1.0
+              }
+            ],
+            "matched_keywords": [
+              "ai"
+            ],
+            "total_signal": 2,
+            "committee": {
+              "score": 1,
+              "votes": [
+                {
+                  "source": "major or median support",
+                  "weight": 1
+                }
+              ]
+            },
+            "decision": "hold"
+          },
+          {
+            "kind": "capability",
+            "category": "Cloud & DevOps",
+            "summary": "Cloud, platform, and DevOps infrastructure delivery.",
+            "supporting_skills": [
+              {
+                "skill": "Cloud",
+                "level": "median",
+                "weight": 1.0
+              }
+            ],
+            "matched_keywords": [
+              "cloud"
+            ],
+            "total_signal": 2,
+            "committee": {
+              "score": 1,
+              "votes": [
+                {
+                  "source": "major or median support",
+                  "weight": 1
+                }
+              ]
+            },
+            "decision": "hold"
+          },
+          {
+            "kind": "capability",
+            "category": "Security & Governance",
+            "summary": "Security architecture, governance, and compliance leadership.",
+            "supporting_skills": [
+              {
+                "skill": "Security",
+                "level": "minor",
+                "weight": 1.0
+              }
+            ],
+            "matched_keywords": [
+              "security"
+            ],
+            "total_signal": 2,
+            "committee": {
+              "score": 0,
+              "votes": []
+            },
+            "decision": "hold"
+          }
+        ],
+        "action": "agent_review",
+        "notes": "Held items require agent review before use in scoring."
+      }
+    },
+    "alignment": {
+      "skills": {
+        "overlap": [
+          "ai",
+          "cloud",
+          "security",
+          "strategy"
+        ],
+        "profile_coverage": 0.6154,
+        "job_coverage": 1.0
+      },
+      "capabilities": {
+        "overlap": [],
+        "profile_coverage": 0.0,
+        "job_coverage": 0.0
+      },
+      "traits": {
+        "overlap": [],
+        "profile_coverage": 0.0,
+        "job_coverage": 0.0
+      },
+      "alignment_score": 0.8077
+    },
+    "job_facts": {
+      "location": "Berlin, Germany",
+      "workplace": "",
+      "work_mode": "",
+      "employment_type": "",
+      "contract_type": "",
+      "compensation": "EUR 100,000 per year",
+      "seniority": "lead",
+      "benefits": []
+    },
+    "recommendation": "apply",
+    "score_thresholds": {
+      "apply": 0.2,
+      "consider": 0.1
+    },
+    "notes": [],
+    "job": {
+      "id": "job-1",
+      "title": "AI Strategy Lead",
+      "company": "Acme AI",
+      "location": "Berlin, Germany",
+      "language": "en",
+      "description": "We need an AI strategy leader to define roadmap and governance. Experience with cloud security and automation. Salary EUR 100,000 per year.",
+      "description_raw": "We need an AI strategy leader to define roadmap and governance. Experience with cloud security and automation. Salary EUR 100,000 per year.",
+      "sanitization_notes": [],
+      "source": "manual",
+      "url": "https://example.com/jobs/ai-strategy-lead",
+      "contact_email": "hr@acme.ai",
+      "job_facts": {
+        "location": "Berlin, Germany",
+        "workplace": "",
+        "work_mode": "",
+        "employment_type": "",
+        "contract_type": "",
+        "compensation": "EUR 100,000 per year",
+        "seniority": "lead",
+        "benefits": []
+      }
+    },
+    "cluster_id": "cluster-1",
+    "cluster_size": 1
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "filters": {
+    "region_options": [
+      "all",
+      "EU",
+      "Europe",
+      "UK",
+      "United Kingdom",
+      "Germany",
+      "Deutschland",
+      "DE",
+      "DACH",
+      "Remote",
+      "Hybrid"
+    ],
+    "language_options": [
+      "all",
+      "en",
+      "de"
+    ],
+    "alignment_default": 0.9,
+    "group_default": "vote"
+  },
+  "grouping": {
+    "alignment_buckets": {
+      "a90": 0,
+      "a80": 0,
+      "a70": 0,
+      "rest": 213
+    },
+    "vote_buckets": {
+      "approve": 0,
+      "hold": 0,
+      "reject": 1,
+      "none": 212
+    }
+  },
+  "holding_queue": {
+    "count": 212,
+    "sample_ids": [
+      8315155002,
+      8333893002,
+      8154619002,
+      8174779002,
+      7445065
+    ]
+  },
+  "generated_at": "2026-01-07T15:43:46.296766Z"
+}

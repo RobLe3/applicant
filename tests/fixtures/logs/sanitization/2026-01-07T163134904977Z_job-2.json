@@ -1,0 +1,13 @@
+{
+  "job_id": "job-2",
+  "title": "Cloud Security Architect",
+  "company": "Blue Harbor",
+  "raw_preview": "Design zero-trust cloud security architectures. Contract role. Salary EUR 90,000 - EUR 120,000 per year.",
+  "sanitized_preview": "Design zero-trust cloud security architectures. Contract role. Salary EUR 90,000 - EUR 120,000 per year.",
+  "diff_preview": "",
+  "unsafe_patterns": [],
+  "has_changes": false,
+  "raw_length": 104,
+  "sanitized_length": 104,
+  "logged_at": "2026-01-07T16:31:34.904977Z"
+}

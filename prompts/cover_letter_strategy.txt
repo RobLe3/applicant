@@ -1,0 +1,10 @@
+{{date}}
+
+Dear Hiring Team at {{company}},
+
+I am applying for the "{{title}}" role. My strategy and consulting background in {{skills}} helps me frame ambiguity, align stakeholders, and deliver practical plans that drive outcomes.
+
+I would welcome the opportunity to discuss the role.
+
+Sincerely,
+{{name}}

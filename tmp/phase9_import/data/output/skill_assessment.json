@@ -1,0 +1,196 @@
+{
+  "total_jobs": 541,
+  "avg_score": 0.1305,
+  "avg_coverage": 0.0018,
+  "requirements": {
+    "total": 1,
+    "matched": 1,
+    "coverage": 1.0
+  },
+  "recommendations": {
+    "apply": 15,
+    "consider": 233,
+    "skip": 293
+  },
+  "top_gaps": [],
+  "skill_weighting": {
+    "major": [
+      {
+        "skill": "Zero-trust architecture",
+        "type": "hard",
+        "weight": 1.0,
+        "mentions": 6
+      },
+      {
+        "skill": "network security",
+        "type": "hard",
+        "weight": 0.8333,
+        "mentions": 5
+      },
+      {
+        "skill": "transfer learning",
+        "type": "hard",
+        "weight": 0.6667,
+        "mentions": 4
+      },
+      {
+        "skill": "Zero-trust architectures",
+        "type": "hard",
+        "weight": 0.6667,
+        "mentions": 4
+      },
+      {
+        "skill": "compliance (GDPR",
+        "type": "hard",
+        "weight": 0.5,
+        "mentions": 3
+      },
+      {
+        "skill": "Data Analysis",
+        "type": "hard",
+        "weight": 0.5,
+        "mentions": 1
+      },
+      {
+        "skill": "federated learning",
+        "type": "hard",
+        "weight": 0.5,
+        "mentions": 3
+      },
+      {
+        "skill": "GPT-based frameworks",
+        "type": "hard",
+        "weight": 0.5,
+        "mentions": 3
+      }
+    ],
+    "median": [
+      {
+        "skill": "Python",
+        "type": "hard",
+        "weight": 0.3333,
+        "mentions": 0
+      },
+      {
+        "skill": "release management",
+        "type": "soft",
+        "weight": 0.3333,
+        "mentions": 2
+      },
+      {
+        "skill": "Security architecture",
+        "type": "hard",
+        "weight": 0.3333,
+        "mentions": 2
+      },
+      {
+        "skill": "Strategy",
+        "type": "hard",
+        "weight": 0.3333,
+        "mentions": 0
+      },
+      {
+        "skill": "threat modeling",
+        "type": "hard",
+        "weight": 0.3333,
+        "mentions": 2
+      }
+    ],
+    "minor": [
+      {
+        "skill": "stakeholder management",
+        "type": "soft",
+        "weight": 0.1667,
+        "mentions": 1
+      }
+    ]
+  },
+  "role_abstractions": {
+    "capabilities": [
+      {
+        "label": "Security & Governance",
+        "level": "major",
+        "weight": 1.0,
+        "skills": [
+          "Zero-trust architecture",
+          "network security",
+          "Zero-trust architectures",
+          "compliance (GDPR"
+        ]
+      },
+      {
+        "label": "AI Strategy & Transformation",
+        "level": "major",
+        "weight": 0.7727,
+        "skills": [
+          "transfer learning",
+          "federated learning",
+          "GPT-based frameworks",
+          "Vision Transformers"
+        ]
+      },
+      {
+        "label": "Distributed Systems & Architecture",
+        "level": "median",
+        "weight": 0.5455,
+        "skills": [
+          "Zero-trust architecture",
+          "Zero-trust architectures",
+          "Security architecture"
+        ]
+      },
+      {
+        "label": "Leadership & Org Design",
+        "level": "median",
+        "weight": 0.3636,
+        "skills": [
+          "Stakeholder Management",
+          "Leadership",
+          "release management",
+          "stakeholder management"
+        ]
+      },
+      {
+        "label": "Product & Business Strategy",
+        "level": "minor",
+        "weight": 0.3182,
+        "skills": [
+          "white-label scaling",
+          "Consulting",
+          "Product"
+        ]
+      },
+      {
+        "label": "Data Platforms & Analytics",
+        "level": "minor",
+        "weight": 0.1364,
+        "skills": [
+          "Data Analysis"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "label": "Leadership & People",
+        "level": "major",
+        "weight": 1.0,
+        "skills": [
+          "Stakeholder Management",
+          "Leadership",
+          "release management",
+          "stakeholder management"
+        ]
+      },
+      {
+        "label": "Stakeholder & Communication",
+        "level": "median",
+        "weight": 0.75,
+        "skills": [
+          "Stakeholder Management",
+          "Communication",
+          "stakeholder management"
+        ]
+      }
+    ]
+  }
+}

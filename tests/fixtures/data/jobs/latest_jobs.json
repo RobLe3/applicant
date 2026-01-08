@@ -1,0 +1,15 @@
+[
+  {
+    "id": "job-1",
+    "title": "AI Strategy Lead",
+    "company": "Acme AI",
+    "location": "Berlin, Germany",
+    "language": "en",
+    "description": "We need an AI strategy leader to define roadmap and governance. Experience with cloud security and automation. Salary EUR 100,000 per year.",
+    "description_raw": "We need an AI strategy leader to define roadmap and governance. Experience with cloud security and automation. Salary EUR 100,000 per year.",
+    "sanitization_notes": [],
+    "source": "manual",
+    "url": "https://example.com/jobs/ai-strategy-lead",
+    "contact_email": "hr@acme.ai"
+  }
+]

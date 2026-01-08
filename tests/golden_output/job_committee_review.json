@@ -1,0 +1,92 @@
+{
+  "action": "agent_review",
+  "jobs": [
+    {
+      "job_id": "job-1",
+      "title": "AI Strategy Lead",
+      "company": "Acme AI",
+      "url": "https://example.com/jobs/ai-strategy-lead",
+      "committee_review": {
+        "skills": [],
+        "abstractions": [
+          {
+            "kind": "capability",
+            "category": "AI Strategy & Transformation",
+            "summary": "Evidence-backed AI strategy and transformation capability.",
+            "supporting_skills": [
+              {
+                "skill": "AI",
+                "level": "major",
+                "weight": 1.0
+              }
+            ],
+            "matched_keywords": [
+              "ai"
+            ],
+            "total_signal": 2,
+            "committee": {
+              "score": 1,
+              "votes": [
+                {
+                  "source": "major or median support",
+                  "weight": 1
+                }
+              ]
+            },
+            "decision": "hold"
+          },
+          {
+            "kind": "capability",
+            "category": "Cloud & DevOps",
+            "summary": "Cloud, platform, and DevOps infrastructure delivery.",
+            "supporting_skills": [
+              {
+                "skill": "Cloud",
+                "level": "median",
+                "weight": 1.0
+              }
+            ],
+            "matched_keywords": [
+              "cloud"
+            ],
+            "total_signal": 2,
+            "committee": {
+              "score": 1,
+              "votes": [
+                {
+                  "source": "major or median support",
+                  "weight": 1
+                }
+              ]
+            },
+            "decision": "hold"
+          },
+          {
+            "kind": "capability",
+            "category": "Security & Governance",
+            "summary": "Security architecture, governance, and compliance leadership.",
+            "supporting_skills": [
+              {
+                "skill": "Security",
+                "level": "minor",
+                "weight": 1.0
+              }
+            ],
+            "matched_keywords": [
+              "security"
+            ],
+            "total_signal": 2,
+            "committee": {
+              "score": 0,
+              "votes": []
+            },
+            "decision": "hold"
+          }
+        ],
+        "action": "agent_review",
+        "notes": "Held items require agent review before use in scoring."
+      }
+    }
+  ],
+  "notes": "Held job skills/abstractions require agent review before use in scoring."
+}

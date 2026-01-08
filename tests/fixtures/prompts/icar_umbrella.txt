@@ -1,0 +1,1 @@
+ICAR umbrella prompt placeholder for smoke tests.

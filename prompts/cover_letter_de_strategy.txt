@@ -1,0 +1,10 @@
+{{date}}
+
+Sehr geehrte Damen und Herren bei {{company}},
+
+mit Interesse bewerbe ich mich fuer die Position "{{title}}". Meine Strategie- und Consulting-Erfahrung in {{skills}} hilft mir, komplexe Situationen zu strukturieren und umsetzbare Pläne zu liefern.
+
+Gerne erlaeutere ich Details in einem persoenlichen Gespraech.
+
+Mit freundlichen Gruessen,
+{{name}}

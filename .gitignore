@@ -1,0 +1,56 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Local sources and personal artifacts
+Sources/
+*.pdf
+*.doc
+*.docx
+*.rtf
+*.ppt
+*.pptx
+
+# Outputs, logs, inventories, and drafts
+/data/output/
+/data/logs/
+
+# Job data (potentially sensitive)
+/data/jobs/
+
+# Local databases
+/db/
+*.sqlite
+*.sqlite3
+*.db
+
+# Local config with personal details
+/config/applicant.yaml
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Committee and review votes
+/data/output/committee_review.json
+/data/output/job_committee_review.json
+/data/output/committee_votes.json
+/data/output/review_votes.json

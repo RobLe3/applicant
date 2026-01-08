@@ -1,0 +1,38 @@
+{
+  "filters": {
+    "region_options": [
+      "all",
+      "Germany",
+      "Berlin",
+      "Remote",
+      "Remote",
+      "Hybrid"
+    ],
+    "language_options": [
+      "all",
+      "en",
+      "de"
+    ],
+    "alignment_default": 0.9,
+    "group_default": "vote"
+  },
+  "grouping": {
+    "alignment_buckets": {
+      "a90": 0,
+      "a80": 1,
+      "a70": 0,
+      "rest": 0
+    },
+    "vote_buckets": {
+      "approve": 1,
+      "hold": 0,
+      "reject": 0,
+      "none": 0
+    }
+  },
+  "holding_queue": {
+    "count": 0,
+    "sample_ids": []
+  },
+  "generated_at": "2026-01-07T10:37:36.376148Z"
+}

@@ -1,0 +1,10 @@
+{{date}}
+
+Sehr geehrte Damen und Herren bei {{company}},
+
+mit Interesse bewerbe ich mich fuer die Position "{{title}}". Meine Erfahrung in Datenanalyse und Analytics in {{skills}} hilft mir, aus Zielen klare Metriken und belastbare Entscheidungsgrundlagen abzuleiten.
+
+Gerne erlaeutere ich Details in einem persoenlichen Gespraech.
+
+Mit freundlichen Gruessen,
+{{name}}

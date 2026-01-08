@@ -1,0 +1,1237 @@
+{
+  "skills": [
+    {
+      "skill": "bias mitigation",
+      "type": "hard",
+      "mentions": 3,
+      "weight": 0.5,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "mentions",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Grafana)",
+      "type": "hard",
+      "mentions": 3,
+      "weight": 0.5,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "mentions",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "network design",
+      "type": "hard",
+      "mentions": 2,
+      "weight": 0.3333,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "mentions",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "observability (Prometheus",
+      "type": "hard",
+      "mentions": 2,
+      "weight": 0.3333,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "mentions",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "AI infrastructure",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "AI platform architecture",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Austria with strong presence in Cologne",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "C-level technology strategy",
+      "type": "soft",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "CI/CD pipeline development",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "cloud-native applications",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "cybersecurity programs across enterprise",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "defense sectors",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "ensuring that all potential information",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Enterprise-wide AI strategy development",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "entry-level",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Executive positions in DACH region (Austria",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "facilitating continuous improvement. Finally",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "global team management",
+      "type": "soft",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Google Cloud Platform",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "high-availability system",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "if multiple languages are encountered",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "including any content that may be implicit",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "including possible additions from any CV",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "infrastructure as code",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "infrastructure modernization projects",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Inter-Intelligence Communication Protocol (IICP)",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "ISO 27001 and ITIL compliance",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "JavaScript/TypeScript",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Large-scale system design",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "LLM deployment",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "load balancing. Managed 15,000+ network ports for Bundeswehr",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "machine learning infrastructure",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "microservices architecture",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "mid-level",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "migrated SAP Enterprise Portal load balancing",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "multi-cloud architecture",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Multi-cloud strategy",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "organizational AI a",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "other domains",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "partner ecosystem development",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "PCI-DSS)",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Roble Mumin has led AI transformation initiatives",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "SaaS model design",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "secure agent meshes",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "security enforcement",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "skill sheet",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "soft skills",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "such as junior",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "team building",
+      "type": "soft",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "to evaluate the person's background",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "vector databases (Qdrant)",
+      "type": "hard",
+      "mentions": 1,
+      "weight": 0.1667,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "alignment",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "annex",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Ansible",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "AWS",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Azure",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "containerization",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "creative",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Docker",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "experience",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "explainability",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "firewalling",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Germany",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Go",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "government",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Java",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Kubernetes",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "management",
+      "type": "soft",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "MLOps",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "MongoDB",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "MySQL",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "penetrati",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "PKI",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "portfolio",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "PostgreSQL",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "principal",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "PyTorch",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Redis",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "routing",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "senior",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "SIEM",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "switching",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "TensorFlow",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Terraform",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "taxonomy match",
+            "weight": 1
+          }
+        ],
+        "decision": "hold"
+      }
+    },
+    {
+      "skill": "Traefik",
+      "type": "hard",
+      "mentions": 0,
+      "weight": 0.0,
+      "committee": {
+        "score": 0,
+        "votes": [],
+        "decision": "hold"
+      }
+    }
+  ],
+  "abstractions": [
+    {
+      "kind": "capability",
+      "category": "Cloud & DevOps",
+      "summary": "Cloud, platform, and DevOps infrastructure delivery.",
+      "supporting_skills": [
+        {
+          "skill": "Cloud",
+          "level": "major",
+          "weight": 0.3333
+        }
+      ],
+      "matched_keywords": [
+        "cloud"
+      ],
+      "total_signal": 2,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "major or median support",
+            "weight": 1
+          }
+        ]
+      },
+      "decision": "hold"
+    },
+    {
+      "kind": "trait",
+      "trait": "Execution & Delivery",
+      "supporting_skills": [
+        {
+          "skill": "release management",
+          "level": "median",
+          "weight": 0.3333
+        }
+      ],
+      "total_signal": 2,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "major or median support",
+            "weight": 1
+          }
+        ]
+      },
+      "decision": "hold"
+    }
+  ],
+  "emails": [],
+  "action": "agent_review",
+  "notes": "Held items require agent review before use in assessment or abstraction."
+}

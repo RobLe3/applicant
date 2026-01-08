@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "name": "Rob Mumin",
+    "location": "Germany",
+    "email": ""
+  },
+  "hard_skills": [
+    "AI",
+    "Cloud",
+    "Machine Learning",
+    "Python",
+    "Security",
+    "Strategy"
+  ],
+  "soft_skills": [],
+  "experience": [],
+  "education": [],
+  "projects": [],
+  "evidence": {
+    "AI": "Rob Mumin  AI strategy leader with experience in cloud security, automation, and product delivery.  Skills: - AI - Machine Learning",
+    "Machine Learning": "Rob Mumin  AI strategy leader with experience in cloud security, automation, and product delivery.  Skills: - AI - Machine Learning - Strategy - Cloud - Security - Python  Experience: Led AI platform architecture programs across German",
+    "Strategy": "Rob Mumin  AI strategy leader with experience in cloud security, automation, and product delivery.  Skills: - AI - Machine Learning -",
+    "Cloud": "Rob Mumin  AI strategy leader with experience in cloud security, automation, and product delivery.  Skills: - AI - Machine Learning - Strategy - Cloud - Security - Pytho",
+    "Security": "Rob Mumin  AI strategy leader with experience in cloud security, automation, and product delivery.  Skills: - AI - Machine Learning - Strategy - Cloud - Security - Python  Exp",
+    "Python": "e in cloud security, automation, and product delivery.  Skills: - AI - Machine Learning - Strategy - Cloud - Security - Python  Experience: Led AI platform architecture programs across Germany with a focus on secure, scalable systems."
+  },
+  "notes": [
+    "Experience section not detected; add or verify manually."
+  ],
+  "source_files": [
+    "tests/fixtures/Sources/sample_profile.txt"
+  ],
+  "source_files_used": [
+    "tests/fixtures/Sources/sample_profile.txt"
+  ],
+  "source_files_excluded": [],
+  "skill_weighting": {
+    "entries": [
+      {
+        "skill": "Machine Learning",
+        "type": "hard",
+        "mentions": 1,
+        "evidence_hits": 1,
+        "signal": 3,
+        "committee": {
+          "score": 4,
+          "votes": [
+            {
+              "source": "evidence",
+              "weight": 1
+            },
+            {
+              "source": "skills section",
+              "weight": 1
+            },
+            {
+              "source": "seeded skill",
+              "weight": 1
+            },
+            {
+              "source": "taxonomy match",
+              "weight": 1
+            }
+          ],
+          "decision": "accept"
+        },
+        "level": "major",
+        "weight": 1.0
+      },
+      {
+        "skill": "AI",
+        "type": "hard",
+        "mentions": 0,
+        "evidence_hits": 1,
+        "signal": 2,
+        "committee": {
+          "score": 3,
+          "votes": [
+            {
+              "source": "evidence",
+              "weight": 1
+            },
+            {
+              "source": "seeded skill",
+              "weight": 1
+            },
+            {
+              "source": "taxonomy match",
+              "weight": 1
+            }
+          ],
+          "decision": "accept"
+        },
+        "level": "median",
+        "weight": 0.6667
+      },
+      {
+        "skill": "Cloud",
+        "type": "hard",
+        "mentions": 0,
+        "evidence_hits": 1,
+        "signal": 2,
+        "committee": {
+          "score": 3,
+          "votes": [
+            {
+              "source": "evidence",
+              "weight": 1
+            },
+            {
+              "source": "seeded skill",
+              "weight": 1
+            },
+            {
+              "source": "taxonomy match",
+              "weight": 1
+            }
+          ],
+          "decision": "accept"
+        },
+        "level": "median",
+        "weight": 0.6667
+      },
+      {
+        "skill": "Python",
+        "type": "hard",
+        "mentions": 0,
+        "evidence_hits": 1,
+        "signal": 2,
+        "committee": {
+          "score": 2,
+          "votes": [
+            {
+              "source": "evidence",
+              "weight": 1
+            },
+            {
+              "source": "seeded skill",
+              "weight": 1
+            }
+          ],
+          "decision": "accept"
+        },
+        "level": "minor",
+        "weight": 0.6667
+      },
+      {
+        "skill": "Security",
+        "type": "hard",
+        "mentions": 0,
+        "evidence_hits": 1,
+        "signal": 2,
+        "committee": {
+          "score": 3,
+          "votes": [
+            {
+              "source": "evidence",
+              "weight": 1
+            },
+            {
+              "source": "seeded skill",
+              "weight": 1
+            },
+            {
+              "source": "taxonomy match",
+              "weight": 1
+            }
+          ],
+          "decision": "accept"
+        },
+        "level": "minor",
+        "weight": 0.6667
+      },
+      {
+        "skill": "Strategy",
+        "type": "hard",
+        "mentions": 0,
+        "evidence_hits": 1,
+        "signal": 2,
+        "committee": {
+          "score": 3,
+          "votes": [
+            {
+              "source": "evidence",
+              "weight": 1
+            },
+            {
+              "source": "seeded skill",
+              "weight": 1
+            },
+            {
+              "source": "taxonomy match",
+              "weight": 1
+            }
+          ],
+          "decision": "accept"
+        },
+        "level": "minor",
+        "weight": 0.6667
+      }
+    ],
+    "tiers": {
+      "major": [
+        "Machine Learning"
+      ],
+      "median": [
+        "AI",
+        "Cloud"
+      ],
+      "minor": [
+        "Python",
+        "Security",
+        "Strategy"
+      ]
+    },
+    "committee": {
+      "min_score": 2,
+      "held": 0,
+      "rejected": 0
+    },
+    "notes": "Weights derived from source mentions and evidence hits."
+  },
+  "role_abstractions": {
+    "capabilities": [
+      {
+        "category": "AI Strategy & Transformation",
+        "summary": "Evidence-backed AI strategy and transformation capability.",
+        "supporting_skills": [
+          {
+            "skill": "Machine Learning",
+            "level": "major",
+            "weight": 1.0
+          },
+          {
+            "skill": "AI",
+            "level": "median",
+            "weight": 0.6667
+          }
+        ],
+        "matched_keywords": [
+          "ai",
+          "machine learning"
+        ],
+        "total_signal": 5,
+        "committee": {
+          "score": 4,
+          "votes": [
+            {
+              "source": "support count",
+              "weight": 1
+            },
+            {
+              "source": "major or median support",
+              "weight": 1
+            },
+            {
+              "source": "signal strength",
+              "weight": 1
+            },
+            {
+              "source": "keyword coverage",
+              "weight": 1
+            }
+          ]
+        },
+        "decision": "accept",
+        "level": "major",
+        "weight": 1.0
+      }
+    ],
+    "traits": [],
+    "held": [
+      {
+        "kind": "capability",
+        "category": "Cloud & DevOps",
+        "summary": "Cloud, platform, and DevOps infrastructure delivery.",
+        "supporting_skills": [
+          {
+            "skill": "Cloud",
+            "level": "median",
+            "weight": 0.6667
+          }
+        ],
+        "matched_keywords": [
+          "cloud"
+        ],
+        "total_signal": 2,
+        "committee": {
+          "score": 1,
+          "votes": [
+            {
+              "source": "major or median support",
+              "weight": 1
+            }
+          ]
+        },
+        "decision": "hold"
+      },
+      {
+        "kind": "capability",
+        "category": "Security & Governance",
+        "summary": "Security architecture, governance, and compliance leadership.",
+        "supporting_skills": [
+          {
+            "skill": "Security",
+            "level": "minor",
+            "weight": 0.6667
+          }
+        ],
+        "matched_keywords": [
+          "security"
+        ],
+        "total_signal": 2,
+        "committee": {
+          "score": 0,
+          "votes": []
+        },
+        "decision": "hold"
+      }
+    ],
+    "notes": "Abstracted from weighted skills to align with job description language."
+  },
+  "capability_baseline": {
+    "capabilities": [
+      {
+        "category": "AI Strategy & Transformation",
+        "summary": "Evidence-backed AI strategy and transformation capability.",
+        "supporting_skills": [
+          "AI",
+          "Machine Learning"
+        ],
+        "matched_keywords": [
+          "ai",
+          "machine learning"
+        ],
+        "evidence": [
+          "Rob Mumin  AI strategy leader with experience in cloud security, automation, and product delivery.  Skills: - AI - Machine Learning",
+          "Rob Mumin  AI strategy leader with experience in cloud security, automation, and product delivery.  Skills: - AI - Machine Learning - Strategy - Cloud - Security - Python  Experience: Led AI platform architecture programs across German"
+        ],
+        "support_count": 2,
+        "confidence": "medium"
+      }
+    ],
+    "traits": [],
+    "perks": {
+      "location": "Germany"
+    },
+    "unmapped_skills": [
+      "Python",
+      "Strategy"
+    ],
+    "unmapped_traits": [],
+    "guardrails": {
+      "min_support": 2,
+      "sources_used": 1,
+      "sources_excluded": 0,
+      "notes": "Capabilities derived only from extracted skills and source text."
+    }
+  },
+  "role_intent": "principal_architecture",
+  "role_intent_signals": {
+    "scores": {
+      "executive_strategy": 2,
+      "principal_architecture": 2,
+      "consulting_leadership": 1,
+      "engineering_execution": 0
+    },
+    "leadership_entries": 1,
+    "execution_entries": 0,
+    "leadership_ratio": 1.0
+  },
+  "committee_review": {
+    "skills": [],
+    "abstractions": [
+      {
+        "kind": "capability",
+        "category": "Cloud & DevOps",
+        "summary": "Cloud, platform, and DevOps infrastructure delivery.",
+        "supporting_skills": [
+          {
+            "skill": "Cloud",
+            "level": "median",
+            "weight": 0.6667
+          }
+        ],
+        "matched_keywords": [
+          "cloud"
+        ],
+        "total_signal": 2,
+        "committee": {
+          "score": 1,
+          "votes": [
+            {
+              "source": "major or median support",
+              "weight": 1
+            }
+          ]
+        },
+        "decision": "hold"
+      },
+      {
+        "kind": "capability",
+        "category": "Security & Governance",
+        "summary": "Security architecture, governance, and compliance leadership.",
+        "supporting_skills": [
+          {
+            "skill": "Security",
+            "level": "minor",
+            "weight": 0.6667
+          }
+        ],
+        "matched_keywords": [
+          "security"
+        ],
+        "total_signal": 2,
+        "committee": {
+          "score": 0,
+          "votes": []
+        },
+        "decision": "hold"
+      }
+    ],
+    "emails": [],
+    "action": "agent_review",
+    "notes": "Held items require agent review before use in assessment or abstraction."
+  }
+}

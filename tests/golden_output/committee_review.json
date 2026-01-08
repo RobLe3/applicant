@@ -1,0 +1,55 @@
+{
+  "skills": [],
+  "abstractions": [
+    {
+      "kind": "capability",
+      "category": "Cloud & DevOps",
+      "summary": "Cloud, platform, and DevOps infrastructure delivery.",
+      "supporting_skills": [
+        {
+          "skill": "Cloud",
+          "level": "median",
+          "weight": 0.6667
+        }
+      ],
+      "matched_keywords": [
+        "cloud"
+      ],
+      "total_signal": 2,
+      "committee": {
+        "score": 1,
+        "votes": [
+          {
+            "source": "major or median support",
+            "weight": 1
+          }
+        ]
+      },
+      "decision": "hold"
+    },
+    {
+      "kind": "capability",
+      "category": "Security & Governance",
+      "summary": "Security architecture, governance, and compliance leadership.",
+      "supporting_skills": [
+        {
+          "skill": "Security",
+          "level": "minor",
+          "weight": 0.6667
+        }
+      ],
+      "matched_keywords": [
+        "security"
+      ],
+      "total_signal": 2,
+      "committee": {
+        "score": 0,
+        "votes": []
+      },
+      "decision": "hold"
+    }
+  ],
+  "emails": [],
+  "action": "agent_review",
+  "notes": "Held items require agent review before use in assessment or abstraction."
+}

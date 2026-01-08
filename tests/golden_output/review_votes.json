@@ -1,0 +1,7 @@
+{
+  "job-1": {
+    "vote": "approve",
+    "note": "smoke-test",
+    "updated_at": "2020-01-01T00:00:00Z"
+  }
+}

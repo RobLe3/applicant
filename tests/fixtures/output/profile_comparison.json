@@ -1,0 +1,29 @@
+{
+  "local": {
+    "hard_skills": [
+      "AI",
+      "Cloud",
+      "Machine Learning",
+      "Python",
+      "Security",
+      "Strategy"
+    ],
+    "soft_skills": [],
+    "total": 6
+  },
+  "web": {
+    "hard_skills": [],
+    "soft_skills": [],
+    "total": 0
+  },
+  "overlap": [],
+  "local_only": [
+    "AI",
+    "Cloud",
+    "Machine Learning",
+    "Python",
+    "Security",
+    "Strategy"
+  ],
+  "web_only": []
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "path": "Sources/CV_Projects_Skill_Roble_Mumin_1225_UK_2M.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 34537
+  },
+  {
+    "path": "Sources/Certs/CCNA-CCNP-Certifactes.pdf",
+    "file_type": "pdf",
+    "status": "skipped",
+    "notes": "pdf parsing unavailable",
+    "char_count": 0
+  },
+  {
+    "path": "Sources/Certs/FAZ_Roble_Mumin_10102017.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 12903
+  },
+  {
+    "path": "Sources/Certs/MCSE - Certificates.pdf",
+    "file_type": "pdf",
+    "status": "skipped",
+    "notes": "pdf parsing unavailable",
+    "char_count": 0
+  },
+  {
+    "path": "Sources/Certs/CCSP-Certifcates.pdf",
+    "file_type": "pdf",
+    "status": "skipped",
+    "notes": "pdf parsing unavailable",
+    "char_count": 0
+  },
+  {
+    "path": "Sources/Certs/Infosec-Certs.pdf",
+    "file_type": "pdf",
+    "status": "skipped",
+    "notes": "pdf parsing unavailable",
+    "char_count": 0
+  },
+  {
+    "path": "Sources/Certs/CCSP-Recert.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 492
+  },
+  {
+    "path": "Sources/Certs/ITIL - Certificate.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 592
+  },
+  {
+    "path": "Sources/Certs/AI Certs/AI-Consultant Certs.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 1228
+  },
+  {
+    "path": "Sources/Certs/AI Certs/AI_Consultant_Abschluss_Zeugnis.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 499
+  },
+  {
+    "path": "Sources/Certs/AI Certs/Abschlussnote - Abschlussdokument - AI Consultant.png",
+    "file_type": "png",
+    "status": "skipped",
+    "notes": "unsupported file type",
+    "char_count": 0
+  },
+  {
+    "path": "Sources/Certs/AI Certs/Programming with Python.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 309
+  },
+  {
+    "path": "Sources/Certs/AI Certs/Seminar Current Topics in AI.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 315
+  },
+  {
+    "path": "Sources/Certs/AI Certs/Machine Learning.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 302
+  },
+  {
+    "path": "Sources/Certs/AI Certs/Deep Learning.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 299
+  },
+  {
+    "path": "Sources/ICAR/ICAR_REFERENCE_LETTER_DETAIL_PROMPT-v2.0.DOCX",
+    "file_type": "docx",
+    "status": "ok",
+    "notes": "",
+    "char_count": 16607
+  },
+  {
+    "path": "Sources/ICAR/ICAR_UMBRELLA_PROMPT-v2.0.docx",
+    "file_type": "docx",
+    "status": "ok",
+    "notes": "",
+    "char_count": 5045
+  },
+  {
+    "path": "Sources/ICAR/ICAR_README-v2.0.docx",
+    "file_type": "docx",
+    "status": "ok",
+    "notes": "",
+    "char_count": 4704
+  },
+  {
+    "path": "Sources/ICAR/ICAR_COVER_LETTER_DETAIL_PROMPT-v1.3.docx",
+    "file_type": "docx",
+    "status": "ok",
+    "notes": "",
+    "char_count": 4118
+  },
+  {
+    "path": "Sources/ICAR/Archive/ICAR 1.0.DOCX",
+    "file_type": "docx",
+    "status": "ok",
+    "notes": "",
+    "char_count": 7906
+  },
+  {
+    "path": "Sources/ICAR/Archive/ICAR - Iterative Cover Letter and Resume Builder.docx",
+    "file_type": "docx",
+    "status": "ok",
+    "notes": "",
+    "char_count": 6954
+  },
+  {
+    "path": "Sources/ICAR/Archive/ICAR QR.jpeg",
+    "file_type": "jpeg",
+    "status": "skipped",
+    "notes": "unsupported file type",
+    "char_count": 0
+  },
+  {
+    "path": "Sources/Zeugnisse/Roble_Mumin_Zeugnis_KPMG.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 4643
+  },
+  {
+    "path": "Sources/Zeugnisse/Flexcon IT Zeugnis.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 3278
+  },
+  {
+    "path": "Sources/Zeugnisse/Roble_Mumin_Zeugnis_Logicalis.pdf",
+    "file_type": "pdf",
+    "status": "ok",
+    "notes": "pdf parsed via pypdf",
+    "char_count": 4120
+  },
+  {
+    "path": "web:https://roblemumin.com",
+    "file_type": "html",
+    "status": "ok",
+    "notes": "ok",
+    "char_count": 4287
+  },
+  {
+    "path": "web:https://roblemumin.com/library.html",
+    "file_type": "html",
+    "status": "ok",
+    "notes": "ok",
+    "char_count": 2045
+  }
+]

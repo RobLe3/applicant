@@ -1,0 +1,309 @@
+{
+  "paths": {
+    "sources_dir": "Sources",
+    "jobs_dir": "data/jobs",
+    "output_dir": "/Users/roble/Documents/Applicate/tmp/phase9_template_test/output",
+    "prompts_dir": "/Users/roble/Documents/Applicate/prompts",
+    "logs_dir": "/Users/roble/Documents/Applicate/tmp/phase9_template_test/logs"
+  },
+  "profile": {
+    "name": "Rob Mumin",
+    "location": "",
+    "email": "",
+    "source_exclude": [
+      "Sources/ICAR",
+      "ICAR_"
+    ],
+    "committee": {
+      "min_score": 2
+    }
+  },
+  "web_profile": {
+    "enabled": true,
+    "urls": [
+      "https://roblemumin.com"
+    ],
+    "allowed_domains": [
+      "roblemumin.com"
+    ],
+    "follow_library": true,
+    "follow_patterns": [
+      "library"
+    ],
+    "max_pages": 5
+  },
+  "language": {
+    "default": "en",
+    "supported": [
+      "en",
+      "de"
+    ]
+  },
+  "matching": {
+    "weights": {
+      "skills": 0.4,
+      "title": 0.2,
+      "location": 0.1,
+      "language": 0.1,
+      "experience": 0.1,
+      "alignment": 0.1
+    },
+    "similarity": {
+      "enabled": true,
+      "threshold": 0.85
+    },
+    "semantic": {
+      "mode": "semantic",
+      "backend": "hash",
+      "model_path": "",
+      "cache_path": ""
+    },
+    "top_n": 5,
+    "min_score": 0.1,
+    "apply_threshold": 0.25,
+    "consider_threshold": 0.15,
+    "region_keywords": [
+      "EU",
+      "Europe",
+      "UK",
+      "United Kingdom",
+      "Germany",
+      "Deutschland",
+      "DE",
+      "DACH"
+    ],
+    "committee": {
+      "min_score": 2
+    },
+    "feedback": {
+      "enabled": false,
+      "path": "",
+      "weight": 0.05,
+      "tag_weight": 0.05,
+      "company_weight": 0.07,
+      "min_samples": 2,
+      "max_adjustment": 0.1
+    }
+  },
+  "scoring": {
+    "active_preset": "balanced",
+    "presets": {
+      "balanced": {
+        "label": "Balanced",
+        "weights": {
+          "skills": 0.4,
+          "title": 0.2,
+          "location": 0.1,
+          "language": 0.1,
+          "experience": 0.1,
+          "alignment": 0.1
+        },
+        "thresholds": {
+          "apply": 0.25,
+          "consider": 0.15
+        }
+      },
+      "growth": {
+        "label": "Growth",
+        "weights": {
+          "skills": 0.35,
+          "title": 0.2,
+          "location": 0.05,
+          "language": 0.05,
+          "experience": 0.15,
+          "alignment": 0.2
+        },
+        "thresholds": {
+          "apply": 0.23,
+          "consider": 0.12
+        }
+      },
+      "stability": {
+        "label": "Stability",
+        "weights": {
+          "skills": 0.4,
+          "title": 0.2,
+          "location": 0.15,
+          "language": 0.1,
+          "experience": 0.1,
+          "alignment": 0.05
+        },
+        "thresholds": {
+          "apply": 0.26,
+          "consider": 0.16
+        }
+      },
+      "remote_first": {
+        "label": "Remote-first",
+        "weights": {
+          "skills": 0.35,
+          "title": 0.2,
+          "location": 0.2,
+          "language": 0.05,
+          "experience": 0.1,
+          "alignment": 0.1
+        },
+        "thresholds": {
+          "apply": 0.24,
+          "consider": 0.14
+        }
+      }
+    }
+  },
+  "job_sources": {
+    "use_manual_files": true,
+    "use_ats": true,
+    "use_job_pages": false,
+    "ats_companies": [
+      {
+        "provider": "greenhouse",
+        "board": "cloudflare",
+        "company": "Cloudflare"
+      },
+      {
+        "provider": "greenhouse",
+        "board": "elastic",
+        "company": "Elastic"
+      },
+      {
+        "provider": "greenhouse",
+        "board": "databricks",
+        "company": "Databricks"
+      },
+      {
+        "provider": "greenhouse",
+        "board": "mongodb",
+        "company": "MongoDB"
+      },
+      {
+        "provider": "greenhouse",
+        "board": "gitlab",
+        "company": "GitLab"
+      }
+    ],
+    "job_pages": [],
+    "fetch_timeout_seconds": 10,
+    "max_per_company": 0,
+    "max_total": 0
+  },
+  "adapters": {
+    "stepstone": {
+      "enabled": true,
+      "source_path": "data/jobs/stepstone_jobs.json",
+      "max_total": 0
+    },
+    "linkedin": {
+      "enabled": false,
+      "source_path": "data/jobs/linkedin_jobs.json",
+      "max_total": 0
+    }
+  },
+  "schedule": {
+    "daily": false,
+    "hour": 9,
+    "frequency": "24h"
+  },
+  "job_filters": {
+    "derived_enabled": true,
+    "derived_max_keywords": 40,
+    "include_keywords": [
+      "ai",
+      "machine learning",
+      "ml",
+      "security",
+      "cybersecurity",
+      "zero trust",
+      "network security",
+      "cloud security",
+      "governance",
+      "compliance",
+      "risk",
+      "privacy",
+      "architecture",
+      "platform",
+      "infrastructure",
+      "strategy",
+      "consulting",
+      "product",
+      "data",
+      "automation"
+    ],
+    "exclude_keywords": [
+      "oil",
+      "drilling",
+      "rig",
+      "petroleum",
+      "offshore"
+    ],
+    "location_allow": [
+      "Europe",
+      "EU",
+      "United Kingdom",
+      "UK",
+      "Germany",
+      "Deutschland",
+      "DACH",
+      "Remote",
+      "Hybrid"
+    ],
+    "location_block": [
+      "Hong Kong",
+      "China",
+      "Singapore"
+    ]
+  },
+  "review": {
+    "use_votes": true
+  },
+  "drafting": {
+    "require_review": true,
+    "max_skills_in_letter": 3,
+    "attachments": [
+      "rob_cv.pdf"
+    ],
+    "letter_date": "",
+    "role_families": [
+      "engineering",
+      "data",
+      "strategy"
+    ],
+    "default_role_family": ""
+  },
+  "submission": {
+    "enabled": false,
+    "mode": "draft",
+    "smtp": {
+      "enabled": false,
+      "host": "127.0.0.1",
+      "port": 1025
+    }
+  },
+  "db": {
+    "enabled": false,
+    "driver": "sqlite",
+    "env": "dev",
+    "path": "db/applicant.db",
+    "dev_path": "db/applicant_dev.db"
+  },
+  "skills_seed": {
+    "hard": [
+      "AI",
+      "ML",
+      "NLP",
+      "Python",
+      "Strategy",
+      "Consulting",
+      "Data Analysis",
+      "Product",
+      "Cloud",
+      "Automation"
+    ],
+    "soft": [
+      "Leadership",
+      "Communication",
+      "Stakeholder Management",
+      "Problem Solving",
+      "Teamwork"
+    ]
+  }
+}

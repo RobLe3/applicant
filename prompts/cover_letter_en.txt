@@ -1,0 +1,10 @@
+{{date}}
+
+Dear Hiring Team at {{company}},
+
+I am excited to apply for the "{{title}}" role. With my background in {{skills}}, I believe I am a strong fit.
+
+I would welcome the opportunity to discuss the role further.
+
+Sincerely,
+{{name}}

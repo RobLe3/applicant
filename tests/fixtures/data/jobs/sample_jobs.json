@@ -1,0 +1,22 @@
+[
+  {
+    "id": "job-1",
+    "title": "AI Strategy Lead",
+    "company": "Acme AI",
+    "location": "Berlin, Germany",
+    "description": "We need an AI strategy leader to define roadmap and governance. Experience with cloud security and automation. Salary EUR 100,000 per year.",
+    "source": "manual",
+    "url": "https://example.com/jobs/ai-strategy-lead",
+    "contact_email": "hr@acme.ai"
+  },
+  {
+    "id": "job-2",
+    "title": "Cloud Security Architect",
+    "company": "Blue Harbor",
+    "location": "Remote",
+    "description": "Design zero-trust cloud security architectures. Contract role. Salary EUR 90,000 - EUR 120,000 per year.",
+    "source": "manual",
+    "url": "https://example.com/jobs/cloud-security-architect",
+    "contact_email": "talent@blueharbor.example"
+  }
+]

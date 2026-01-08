@@ -1,0 +1,33 @@
+{
+  "derived": {
+    "include_keywords": [
+      "Machine Learning",
+      "AI",
+      "Cloud",
+      "Python",
+      "Security",
+      "Strategy",
+      "AI Strategy & Transformation"
+    ],
+    "location_allow": [
+      "Germany"
+    ],
+    "location_block": []
+  },
+  "merged": {
+    "include_keywords": [
+      "Machine Learning",
+      "AI",
+      "Cloud",
+      "Python",
+      "Security",
+      "Strategy",
+      "AI Strategy & Transformation"
+    ],
+    "exclude_keywords": [],
+    "location_allow": [
+      "Germany"
+    ],
+    "location_block": []
+  }
+}

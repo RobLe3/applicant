@@ -1,0 +1,10 @@
+{{date}}
+
+Dear Hiring Team at {{company}},
+
+I am applying for the "{{title}}" role. My data background in {{skills}} helps me translate business goals into clear metrics, reliable pipelines, and decision-ready insights.
+
+I would welcome the opportunity to discuss the role.
+
+Sincerely,
+{{name}}

@@ -1,0 +1,9 @@
+[
+  {
+    "path": "tests/fixtures/Sources/sample_profile.txt",
+    "file_type": "txt",
+    "status": "ok",
+    "notes": "",
+    "char_count": 278
+  }
+]

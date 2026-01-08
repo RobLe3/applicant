@@ -1,0 +1,8 @@
+{{date}}
+
+Sehr geehrte Damen und Herren bei {{company}},
+
+mit grossem Interesse bewerbe ich mich fuer die Position "{{title}}". Aufgrund meiner Erfahrung in {{skills}} sehe ich eine starke Passung.
+
+Mit freundlichen Gruessen,
+{{name}}

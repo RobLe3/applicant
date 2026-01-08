@@ -1,0 +1,15 @@
+{
+  "raw_total": 2,
+  "manual_total": 2,
+  "ats_total": 0,
+  "job_page_total": 0,
+  "normalized_total": 1,
+  "filtered_out": 1,
+  "truncated": 0,
+  "derived_filters": {
+    "enabled": true,
+    "include_keywords": 7,
+    "location_allow": 1
+  },
+  "generated_at": "2026-01-07T16:30:56.007810Z"
+}

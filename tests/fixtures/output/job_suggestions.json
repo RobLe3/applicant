@@ -1,0 +1,14 @@
+[
+  {
+    "id": "job-1",
+    "title": "AI Strategy Lead",
+    "company": "Acme AI",
+    "location": "Berlin, Germany",
+    "url": "https://example.com/jobs/ai-strategy-lead",
+    "score": 0.5706,
+    "alignment": 0.8077,
+    "recommendation": "apply",
+    "coverage": 1.0,
+    "top_gaps": []
+  }
+]

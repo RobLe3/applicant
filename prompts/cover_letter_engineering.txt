@@ -1,0 +1,10 @@
+{{date}}
+
+Dear Hiring Team at {{company}},
+
+I am applying for the "{{title}}" role. My engineering background in {{skills}} equips me to build reliable systems, ship pragmatic solutions, and collaborate across product and infrastructure teams.
+
+I would welcome the opportunity to discuss how I can contribute.
+
+Sincerely,
+{{name}}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "techcorp-ai-strategy-consultant",
+    "title": "AI Strategy Consultant",
+    "company": "TechCorp",
+    "location": "Berlin, Germany",
+    "url": "",
+    "score": 0.2641,
+    "alignment": 0.5484,
+    "recommendation": "apply",
+    "coverage": 1.0,
+    "top_gaps": []
+  },
+  {
+    "id": 8315155002,
+    "title": "Intermediate Fullstack Engineer (TypeScript), AI Engineering: Editor Extensions – Multi-Platform",
+    "company": "GitLab",
+    "location": "Remote, APAC; Remote, Canada; Remote, Netherlands; Remote, United Kingdom",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8315155002",
+    "score": 0.2536,
+    "alignment": 0.5161,
+    "recommendation": "apply",
+    "coverage": 0.0,
+    "top_gaps": []
+  },
+  {
+    "id": 8333893002,
+    "title": "Lead/Senior Solutions Architect – Retail & CPG (Data & AI)",
+    "company": "Databricks",
+    "location": "London, United Kingdom",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8333893002",
+    "score": 0.2532,
+    "alignment": 0.5161,
+    "recommendation": "apply",
+    "coverage": 0.0,
+    "top_gaps": []
+  },
+  {
+    "id": 8091041002,
+    "title": "Senior Applied AI Engineer",
+    "company": "Databricks",
+    "location": "Belgrade, Serbia",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8091041002",
+    "score": 0.2529,
+    "alignment": 0.5161,
+    "recommendation": "apply",
+    "coverage": 0.0,
+    "top_gaps": []
+  },
+  {
+    "id": 7472730,
+    "title": "Consulting Architect, Public Sector - UK",
+    "company": "Elastic",
+    "location": "United Kingdom",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=7472730&gh_jid=7472730",
+    "score": 0.2526,
+    "alignment": 0.5161,
+    "recommendation": "apply",
+    "coverage": 0.0,
+    "top_gaps": []
+  }
+]

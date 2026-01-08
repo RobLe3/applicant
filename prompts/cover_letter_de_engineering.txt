@@ -1,0 +1,10 @@
+{{date}}
+
+Sehr geehrte Damen und Herren bei {{company}},
+
+mit Interesse bewerbe ich mich fuer die Position "{{title}}". Meine Engineering-Erfahrung in {{skills}} hilft mir, robuste Systeme zu bauen und pragmatische Loesungen umzusetzen.
+
+Gerne erlaeutere ich Details in einem persoenlichen Gespraech.
+
+Mit freundlichen Gruessen,
+{{name}}

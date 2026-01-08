@@ -1,0 +1,368 @@
+7 Frankfurter Allgemeine Zeitung Verlagsspezial / IT-Sicherheit / 10. Oktober 2017 V3
+ 
+ 
+ 
+ 
+ 
+f 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+f 
+Gezielte Lösung
+Um den zunehmenden Bedrohungen von außen und innen zu begegnen, setzen Unternehmen immer öfter 
+auf selbstlernende Security-Technologien. Von Roble Mumin
+D
+ie IT-Verantwortlichen vieler 
+Firmen müssen die meist drin-
+gend notwendigen Verbesse-
+rungen bei der IT-Sicherheit 
+unter denkbar ungünstigen 
+Voraussetzungen umsetzen: 
+Ältere IT-Projekte haben in erster Linie Funk-
+tionalitäten fokussiert und die Sicherheitsas-
+pekte dabei im besten Fall vernachlässigt, im 
+Durchschnitt jedoch ignoriert. Zusätzlichen 
+Handlungsdruck baut die am 25. Mai 2018 
+in Kraft tretende Datenschutz-Grundverord-
+n u n g  ( D S G V O )  a uf ,  w e l c h e  i n  Arti k e l  8 3  b e i  
+Verstößen Strafzahlungen bis zu 20 Millionen 
+Euro oder vier Prozent des weltweiten Ge-
+samtumsatzes vorsieht.
+Was tun? Zahlreiche Hersteller bieten di-
+verse Lösungsportfolios, die schnelle Hilfe 
+versprechen. Die Software- und Hardware-
+Platzhirsche der IT-Industrie haben für jede 
+Situation und jeden technischen Aspekt das 
+jeweilige Äquivalent zum heiligen Gral im 
+Angebot. Diese Produkte werden zuneh-
+mend mit Attributen wie selbstlernend oder 
+kostenoptimiert beworben. Dahinter steckt 
+eine neue Herangehensweise. 
+Neue Konzepte gegen Angriff e
+War bis vor einiger Zeit noch das bestmög-
+liche Produkt im jeweiligen Anwendungs-
+feld das Maß aller Dinge, so wird heute die 
+gesamte Kette der eingesetzten Werkzeuge 
+als Ganzes betrachtet. Die Hersteller kombi-
+nieren intelligente Hardware und Software 
+mit Cloud-basierten Betriebskonzepten und 
+ermöglichen somit selbstlernende Verteidi-
+gungsmechanismen gegen unterschiedli-
+che Bedrohungsszenarien. Hierbei werden 
+die Daten der verschiedenen Sicherheits-
+produkte verknüpft und von den Herstel-
+lern zentral ausgewertet, so dass einmal 
+entdeckte Bedrohungen rückwirkend an 
+alle Nutzer dieser Serviceleistung gemeldet 
+werden. Beispiel „Ransomware“:  Ein inﬁ  -
+zierter E-Mail-Anhang, der im laufenden 
+Betrieb durch die heuristischen Methoden 
+der jeweiligen Software übersehen wird, 
+kann nach Ausbruch und Korrektur auch 
+bei allen anderen Anwendern bekämpft 
+werden. Ermöglicht wird dieses, indem per-
+sen an dieser Stelle, dass ein Produktkauf 
+immer nur den Startpunkt darstellt, selten 
+den Abschluss eine Projektes. Die kaufmän-
+nischen Rollen einer Unternehmung kon-
+zentrieren sich auf Investitionsausgaben 
+(CAPEX) oder Betriebskosten (OPEX), haben 
+jedoch selten die Folgekosten und vor allen 
+Dingen die notwendigen Fähigkeiten der 
+Mitarbeiter im Blick. Dieses ist allerdings 
+in Zeiten von komplexen IT-Sicherheitssys-
+temen ein Vorgehen, das nicht automatisch 
+zum Erfolg führt. Die Problemstellung ist 
+vergleichbar mit dem Post-Wende-Bau-
+boom: Jeder benötigte Kräne, diese waren 
+jedoch alle in aktuellen Projekten gebunden. 
+Verantwortliche sind, was IT-Sicherheit be-
+trifft, einer ähnlich verschärften Variante 
+des Fachkräftemangels ausgesetzt. Sie kön-
+nen Anforderungsproﬁ  le mit geringer Kom-
+plexität zwar häuﬁ  g durch Weiterbildung 
+und monetäre Anreize kompensieren, die 
+mittleren und hohen Komplexitätsgrade von 
+Rollen und Mitarbeitern hingegen lassen 
+sich häuﬁ  g nur durch Abwerben bei Markt-
+begleitern lösen. Wer hier als Unternehmen 
+nicht die nötigen Anreize bieten kann, steht 
+auf verlorenem Posten, wenn er bei der IT-
+Sicherheit aufrüsten möchte. Ohne das drin-
+gend benötigte Fachpersonal kann er die 
+Flut an unterschiedlichen Lösungen weder 
+beurteilen noch „bedienen“. 
+Qualitätsmanagementnormen oder 
+Cyber-Security-Checks
+Firmen, die Angreifern mit Hilfe selbstler-
+nender Security-Technologie begegnen wol-
+len, müssen praktikable Lösungen ﬁ  nden, 
+um die damit verbundene Komplexität und 
+die nötigen Investitionen in den Griff zu be-
+kommen. Neben Personalinvestitionen ist 
+es eine Option, auf die Expertise externer 
+IT-Dienstleister zurückzugreifen. System-
+häuser oder spezialisierte Beratungsun-
+ternehmen verfügen oft über lokale oder 
+dezentrale Experten, die im Rahmen von 
+Anforderungsworkshops die Deﬁ  zite und 
+notwendigen Schritte deﬁ  nieren. Dabei be-
+rücksichtigen sie das gesamte Spektrum 
+der Aufgabenstellung, sprich  Architektu-
+ren, Mitarbeiter und Prozesse. Wichtig ist 
+hierbei, dass sich die Geschäftsführung 
+mit einbringt, denn: IT-Sicherheit fängt bei 
+dem Bewusstsein über den Ernst der Bedro-
+hungslage und bei effektiven Lösungsmög-
+lichkeiten an. Als Faustregel gilt, dass weder 
+eine Silberkugel noch ein Holzpﬂ  ock zur Ab-
+wehr der schädlichen Ereignisse existiert. 
+Bedrohungen von IT-Systemen lassen sich 
+nur durch richtiges Verhalten im Vorfeld, 
+während eines Angriffs und in der professi-
+onellen Nachbearbeitung sinnvoll verhin-
+dern. Lösungsstrategien sollten sich daher 
+an Qualitätsmanagementnormen wie  ISO 
+27001 (sehr umfangreich), NIST des National 
+Cyber Security Center (umfangreich) oder 
+dem Cyber-Security-Check des BSI/ISACA 
+(vereinfacht) orientieren. 
+Um eine verlässliche Finanzplanung 
+vornehmen zu können, benötigt die Unter-
+nehmensführung eine schriftliche Strategie, 
+die inhaltliche, zeitliche sowie ﬁ  nanzielle 
+Aspekte transparent darstellt: Im besten Fall 
+besteht diese aus einem klar strukturierten 
+Dokument, das eine qualiﬁ  zierte Darstel-
+lung von Ausgangs- und Zielstellung mit ein-
+schließt. Zusätzlich sollte es eine fundierte 
+Bewertung der aktuellen Themenfelder und 
+einen Vergleich mit dem vorhandenen Indus-
+triestandard enthalten. Ein genauer Projekt-
+plan mit klaren Zeitsträngen für die Umset-
+zung der einzelnen Teilaspekte rundet das 
+Informationspaket ab. 
+Roble Mumin ist Business Unit Director bei 
+dem Systemhaus Inforsacom Logicalis GmbH.
+Gefahr durch Denial-of-Service-Attacken
+Denial-of-Service-Erpresser 
+(DDos) attackieren immer 
+öfter Unternehmen. Mit 
+der Professionalität der An-
+greifer steigt das Gefahren-
+potential. 
+VON MAURICE KEMMANN
+D
+ie Digitalisierung hat sich vom gro-
+ßen Trend zur gelebten Realität in 
+deutschen Unternehmen gemau-
+sert. Sie erlaubt eine schnellere und 
+agilere Kommunikation mit Kunden und 
+Geschäftspartnern über das Internet – zum 
+Beispiel mittels eines direkten Zugriffs auf 
+Datenbanken oder Unternehmensanwen-
+dungen. Durch diese Schnittstellen nach au-
+ßen werden die betreffenden Applikationen 
+aber auch anfälliger für Angriffe über das 
+Netz wie zum Beispiel DDoS-Attacken. Aber 
+wie funktionieren solche Angriffe, welche 
+Folgen haben sie, und wie können sich Un-
+ternehmen davor schützen? Zeit für eine Be-
+standsaufnahme.
+Die Gefahr durch Cybercrime wie DDoS 
+lauert wie das sprichwörtliche Damokles-
+Schwert über allen Unternehmensanwen-
+dungen in sämtlichen Branchen. DDoS steht 
+für „Distributed Denial of Service“, was sich 
+als „verteilte Dienstverweigerung“ überset-
+zen lässt. Die grundlegende Funktionsweise 
+basiert darauf, dass ungeschützte Rechner 
+oder andere an das Internet angeschlosse-
+ne Geräte mit einer Schadsoftware inﬁ  ziert 
+werden. Sie können dann als Teil eines so-
+genannten Botnetzes per Fernsteuerung für 
+DDoS-Attacken benutzt werden. Dabei sen-
+den die inﬁ  zierten Systeme eine solch enor-
+me Anzahl an Anfragen an ein Ziel, zum Bei-
+spiel einen Webserver, dass dieses überlastet 
+wird und den normalen Datenverkehr vor-
+übergehend nicht mehr bedienen kann. Man 
+spricht hier auch von einem volumetrischen 
+DDoS-Angriff. Diese unterscheiden sich von 
+Angriffen auf Anwendungsebene, die gezielt 
+Schwachstellen aufﬁ  nden und ausnutzen. 
+Das Ziel dieser Angriffe: Datenbanken kom-
+promittieren oder komplette Datensätze 
+stehlen. Solche Attacken haben somit län-
+gerfristige und schwerwiegendere Auswir-
+kungen für das betroffene Unternehmen.
+Gefahren für alle Branchen
+Die Bandbreite der Motive für DDoS-Angriffe 
+reicht von der Schädigung der Konkurrenz 
+über politische Motive bis hin zu Datendieb-
+stählen oder Schutzgelderpressungen. Im 
+letzteren Fall erhalten Unternehmen ent-
+sprechende Schreiben mit der Aufforderung, 
+innerhalb eines meist kurzen Zeitrahmens 
+eine bestimmte Summe zu zahlen. Diese 
+Zahlung erfolgt an ein anonymes Konto in 
+der Internetwährung Bitcoin. Kommt das 
+Opfer der Forderung nicht nach, muss es mit 
+einem DDoS-Angriff rechnen.
+Viele glauben, dass DDoS ausschließlich 
+ein Problem großer, namhafter Unterneh-
+men ist oder nur Online-Shops betrifft – also 
+Branchen, die ihren Umsatz ausschließlich 
+online generieren. Tatsächlich sind aber alle 
+Wirtschaftszweige betroffen. Denn neben 
+Umsatzausfällen drohen viele weitere Nach-
+teile, die einen Betrieb empﬁ  ndlich treffen, 
+wenn die erpresste Summe nicht gezahlt 
+wird: Mitarbeiter können nicht auf benötigte 
+Daten und Systeme zugreifen und sind daher 
+zeitweise unproduktiv, es fallen Personal- 
+sowie Infrastrukturkosten für die Schadens-
+abwehr und -beseitigung an, und obendrein 
+drohen nachhaltige Imageverluste oder gar 
+Schadenersatzforderungen durch Dritte.
+Dass DDoS nach wie vor eine ernstzu-
+nehmende Bedrohung darstellt, zeigen auch 
+aktuelle Berichte und Statistiken. So ist zum 
+Beispiel kürzlich der neue „State of the Inter-
+net Security Report“ des Security-Spezialisten 
+Akamai für das zweite Quartal 2017 erschie-
+nen. Dieser berichtet über einen Anstieg der 
+Gesamtzahl der Angriffe um 28 Prozent, wo-
+bei sich auch die durchschnittliche Anzahl 
+der Attacken pro Ziel auf 32 pro Quartal er-
+höht hat. Die am häuﬁ gsten betroffenen Bran-
+chen waren Gaming, Internet und Telekom-
+munikation sowie Finanzdienstleistungen.
+Schutz durch Outsourcing
+Für die meisten Unternehmen bietet sich 
+aufgrund der Vielfalt der Bedrohungen eine 
+DDoS-Mitigation-Lösung an, welche die 
+gesamte IT-Infrastruktur abdeckt. Diese 
+schützt nicht nur den Online-Shop oder die 
+Website vor Cyberattacken, sondern auch 
+Mailsysteme, Datenbanken, ERP-Anwen-
+dungen und weitere Applikationen. Solche 
+Lösungen funktionieren auf Basis sogenann-
+ter Scrubbing-Center, die eine Art Wasch-
+straße für den Internettrafﬁ  c bilden, in Kom-
+bination mit einer Web Application Firewall 
+(WAF). Die Abwehr von Schadtrafﬁ  c erfolgt 
+hier bereits am Rande des Netzwerks, be-
+vor er das Rechenzentrum und die darin 
+beﬁ  ndlichen Systeme erreicht. Überlastete 
+Leitungen während eines Angriffs werden so 
+vermieden. Die WAF dient dabei dem Schutz 
+vor direkten Angriffen auf Webanwendun-
+gen. Sie unterscheidet sich von den gängigen 
+Firewall-Lösungen, da sie die ein- und aus-
+gehende Kommunikation direkt auf der An-
+wendungsebene überwacht. Die klassische 
+Firewall arbeitet hingegen nur auf der Netz-
+werkebene.
+Die Auslagerung von Diensten in externe 
+Rechenzentren oder Cloud-Lösungen kann 
+ebenfalls ein hilfreicher Schritt sein, um die 
+Sicherheit zu steigern. Zumindest sofern der 
+Anbieter eine 24/7-Betreuung der Infrastruk-
+tur im Rahmen eines Managed Hostings 
+anbietet. Dazu gehört die Überwachung der 
+Systeme rund um die Uhr ebenso wie regel-
+mäßige Backups oder ein professionelles 
+Patch-Management. Auch verschiedene 
+DDoS-Schutzlösungen sollten zum Portfolio 
+des Anbieters gehören. Einschlägige Zerti-
+ﬁ  zierungen wie ISO 27001 oder IT-Grund-
+schutz durch das Bundesamt für Sicherheit 
+in der Informationstechnik bieten darüber 
+hinaus eine gute Orientierung, um die Infor-
+mationssicherheit beim externen Anbieter 
+auf den Prüfstand zu stellen.
+In jedem Falle raten Sicherheitsexper-
+ten sowie das Bundeskriminalamt dazu, auf 
+keinen Fall auf Erpressungen von DDoS-At-
+tacken einzugehen. Besser sei es, sich recht-
+zeitig zu schützen und sofort Anzeige zu er-
+statten.
+Maurice Kemmann ist Chief Technology 
+Ofﬁ cer der PlusServer GmbH. 
+manent ein Fingerabdruck der transpor-
+tierten Daten generiert wird. Das lässt sich 
+mit der genauen Klassiﬁ  zierung eines ver-
+schickten Pakets vergleichen. Man erfasst 
+Form, Gewicht und optische Merkmale, 
+um im Nachgang sämtliche Pakete gleicher 
+Güte identiﬁ  zieren zu können. Bereits zuge-
+stellte Pakete und die damit gefährdeten IT-
+Systeme können so direkt aus dem Kommu-
+nikationsverbund entfernt und zukünftige 
+Zustellversuche dieser schädlichen Pakete 
+direkt am Perimeter der jeweiligen IT-Infra-
+struktur verworfen werden.
+Was als Herangehensweise vielverspre-
+chend ist, ist noch nicht der Weisheit letzter 
+Schluss. Denn viele Unternehmer verges-
+Machine Learning, ein Teilgebiet der Künstlichen Intelligenz: Neuronale Netze werden darauf trainiert, Cyberangriff  e zu erkennen. 
+ILLUSTRATION  TEAMOKTOPUS/ISTOCK/THINKSTOCK
+DURCHSCHNITTLICHE ANZAHL AN DDOS-ATTACKEN GEGEN  
+AKAMAI-KUNDEN PRO ANGRIFFSZIEL
+Q3 2016 Q4 2016 Q1 2017 Q2 2017
+30 30
+25
+32
+QUELLE AKAMAI TECHNOLOGIES
+Dieses Dokument ist lizenziert für VOCATO Public Relations GmbH, ut18003H.
+Alle Rechte vorbehalten. © F.A.Z. Frankfurter Allgemeine Zeitung.  Download vom 10.10.2017 08:48 von www.genios.de.

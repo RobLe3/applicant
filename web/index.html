@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Applicant Review Desk</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scene">
+    <nav class="tabs">
+      <button class="tab-btn is-active" data-tab="review">Review</button>
+      <button class="tab-btn" data-tab="profile">Profile</button>
+      <button class="tab-btn" data-tab="crawl">Crawl</button>
+    </nav>
+
+    <div id="status" class="status" role="status" aria-live="polite">
+      <span class="status-spinner" aria-hidden="true"></span>
+      <span id="status-text" class="status-text">Ready</span>
+    </div>
+
+    <section id="tab-review" class="tab-panel is-active">
+      <header class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Applicant MVP</p>
+          <h1>Review. Vote. Refine.</h1>
+          <p class="lede">Ranked roles with fit signals and fast decisions. All local, no auto-send.</p>
+        </div>
+        <div class="hero-stats" id="stats">
+          <div class="stat">
+            <span class="stat-value" id="stat-total">0</span>
+            <span class="stat-label">Jobs</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-apply">0</span>
+            <span class="stat-label">Apply</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-consider">0</span>
+            <span class="stat-label">Consider</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="controls">
+        <div class="control">
+          <label for="search">Search</label>
+          <input id="search" type="search" placeholder="AI strategy, product, consulting..." />
+        </div>
+        <div class="control">
+          <label for="filter-reco">Recommendation</label>
+          <select id="filter-reco">
+            <option value="high" selected>High fit</option>
+            <option value="all">All</option>
+            <option value="apply">Apply</option>
+            <option value="consider">Consider</option>
+            <option value="skip">Skip</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="filter-region">Region</label>
+          <select id="filter-region">
+            <option value="all" selected>All</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="filter-language">Language</label>
+          <select id="filter-language">
+            <option value="all" selected>All</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="filter-vote">Vote</label>
+          <select id="filter-vote">
+            <option value="all">All</option>
+            <option value="approve">Approved</option>
+            <option value="hold">Hold</option>
+            <option value="reject">Rejected</option>
+            <option value="none">Not Voted</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="sort">Sort By</label>
+          <select id="sort">
+            <option value="score">Score</option>
+            <option value="company">Company</option>
+            <option value="location">Location</option>
+            <option value="title">Title</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="filter-alignment">Alignment Focus</label>
+          <select id="filter-alignment">
+            <option value="0.9" selected>0.90+</option>
+            <option value="all">All</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="preset-toggle">Scoring Preset</label>
+          <select id="preset-toggle">
+            <option value="">Default</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="feedback-toggle">Feedback Learning</label>
+          <select id="feedback-toggle">
+            <option value="off" selected>Off</option>
+            <option value="on">On (session)</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="group">Group</label>
+          <select id="group">
+            <option value="none">None</option>
+            <option value="vote" selected>By Vote</option>
+            <option value="alignment">By Alignment</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="similarity-toggle">Similar Jobs</label>
+          <select id="similarity-toggle">
+            <option value="show" selected>Show all</option>
+            <option value="collapse">Collapse similar</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="focus-toggle">Review Mode</label>
+          <select id="focus-toggle">
+            <option value="off" selected>Standard</option>
+            <option value="on">Focus</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="insights">
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Score Distribution</h2>
+            <p>Histogram of fit scores across all jobs.</p>
+          </div>
+          <div class="panel-body">
+            <div class="control-inline">
+              <label for="score-view-toggle">Score view</label>
+              <select id="score-view-toggle">
+                <option value="adjusted" selected>Adjusted</option>
+                <option value="preset">Preset</option>
+                <option value="raw">Raw</option>
+              </select>
+            </div>
+            <div id="score-total" class="profile-line"></div>
+            <div id="score-histogram" class="histogram"></div>
+          </div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Best Fit Suggestions</h2>
+            <p>Top matches with quick gap context.</p>
+          </div>
+          <div id="suggestions-list" class="panel-body"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Skill Assessment</h2>
+            <p>Coverage trends across collected roles.</p>
+          </div>
+          <div id="assessment-summary" class="panel-body"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Profile Skill Anchors</h2>
+            <p>Accepted skills guiding match comparisons.</p>
+          </div>
+          <div id="profile-anchors" class="panel-body"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Job Collection</h2>
+            <p>Snapshot of ingestion and filters.</p>
+          </div>
+          <div id="collection-summary" class="panel-body"></div>
+        </article>
+      </section>
+
+      <section class="holding">
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Holding Queue</h2>
+            <p>Newly discovered roles awaiting a vote.</p>
+          </div>
+          <div class="panel-body">
+            <div class="holding-meta">
+              <div id="holding-count" class="profile-line">Queue 0 of 0</div>
+              <div class="holding-controls">
+                <button id="holding-prev" class="action-btn ghost">Previous</button>
+                <button id="holding-next" class="action-btn">Next</button>
+              </div>
+            </div>
+            <div id="holding-card" class="holding-card"></div>
+          </div>
+        </article>
+      </section>
+
+      <main id="cards" class="cards"></main>
+    </section>
+
+    <section id="tab-profile" class="tab-panel">
+      <div class="panel-grid">
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Profile Summary</h2>
+            <p>Extracted identity and headline skills.</p>
+          </div>
+          <div id="profile-summary" class="panel-body"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Local vs Web</h2>
+            <p>Compare CV-derived skills with website signals.</p>
+          </div>
+          <div id="profile-compare" class="panel-body"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Hard Skills</h2>
+            <p>Skillset extracted from sources.</p>
+          </div>
+          <div id="profile-hard" class="panel-body"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Soft Skills</h2>
+            <p>Behavioral strengths used for matching.</p>
+          </div>
+          <div id="profile-soft" class="panel-body"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Match Weights</h2>
+            <p>Scoring factors and thresholds.</p>
+          </div>
+          <div id="profile-weights" class="panel-body"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Committee Review</h2>
+            <p>Held items awaiting accept/reject decisions.</p>
+          </div>
+          <div id="committee-review" class="panel-body"></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="tab-crawl" class="tab-panel">
+      <div class="panel-grid">
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Crawl Controls</h2>
+            <p>Fetch new job descriptions and refresh scores.</p>
+          </div>
+          <div class="panel-body">
+            <div class="crawl-actions">
+              <button id="run-crawl" class="action-btn">Run Job Crawl</button>
+              <button id="run-score" class="action-btn ghost">Refresh Scores</button>
+            </div>
+          </div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Job Sources</h2>
+            <p>Manual files and ATS settings.</p>
+          </div>
+          <div id="crawl-config" class="panel-body"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Sources / Companies</h2>
+            <p>ATS boards and feeds enabled for ingestion.</p>
+          </div>
+          <div id="crawl-ats" class="panel-body"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Filters</h2>
+            <p>Keyword include/exclude rules.</p>
+          </div>
+          <div id="crawl-filters" class="panel-body"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Latest Crawl Summary</h2>
+            <p>Validation snapshot from the last run.</p>
+          </div>
+          <div id="crawl-summary" class="panel-body"></div>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
