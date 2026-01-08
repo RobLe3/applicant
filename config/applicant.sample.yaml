@@ -1,0 +1,237 @@
+paths:
+  sources_dir: Sources
+  jobs_dir: data/jobs
+  output_dir: data/output
+  prompts_dir: prompts
+  logs_dir: data/logs
+
+profile:
+  name: "Your Name"
+  location: "City, Country"
+  email: "you@example.com"
+  source_exclude:
+    - Sources/Archive
+    - Archive_
+  committee:
+    min_score: 2
+
+web_profile:
+  enabled: false
+  urls:
+    - https://example.com
+  allowed_domains:
+    - example.com
+  follow_library: true
+  follow_patterns: ["library"]
+  max_pages: 5
+
+language:
+  default: en
+  supported: [en, de]
+
+discovery:
+  source_policy:
+    mode: advisory
+
+meta:
+  version: "0.5.0-beta"
+  maturity_label: "beta"
+  maturity_score: 6.4
+
+matching:
+  weights:
+    skills: 0.4
+    title: 0.2
+    location: 0.1
+    language: 0.1
+    experience: 0.1
+    alignment: 0.1
+  similarity:
+    enabled: true
+    threshold: 0.85
+  semantic:
+    mode: semantic
+    backend: hash
+    model_path: ""
+    cache_path: ""
+  top_n: 5
+  min_score: 0.1
+  apply_threshold: 0.25
+  consider_threshold: 0.15
+  region_keywords: [EU, Europe, UK, United Kingdom, Germany, Deutschland, DE, DACH]
+  committee:
+    min_score: 2
+  feedback:
+    enabled: false
+    path: ""
+    weight: 0.05
+    tag_weight: 0.05
+    company_weight: 0.07
+    min_samples: 2
+    max_adjustment: 0.1
+  role_intent:
+    enabled: true
+    mismatch_penalty: 0.08
+    alignment_bonus: 0.06
+    execution_bonus: 0.0
+  recommendation_guard:
+    enabled: true
+
+scoring:
+  active_preset: balanced
+  presets:
+    balanced:
+      label: Balanced
+      weights:
+        skills: 0.4
+        title: 0.2
+        location: 0.1
+        language: 0.1
+        experience: 0.1
+        alignment: 0.1
+      thresholds:
+        apply: 0.25
+        consider: 0.15
+    growth:
+      label: Growth
+      weights:
+        skills: 0.35
+        title: 0.2
+        location: 0.05
+        language: 0.05
+        experience: 0.15
+        alignment: 0.2
+      thresholds:
+        apply: 0.23
+        consider: 0.12
+    stability:
+      label: Stability
+      weights:
+        skills: 0.4
+        title: 0.2
+        location: 0.15
+        language: 0.1
+        experience: 0.1
+        alignment: 0.05
+      thresholds:
+        apply: 0.26
+        consider: 0.16
+    remote_first:
+      label: Remote-first
+      weights:
+        skills: 0.35
+        title: 0.2
+        location: 0.2
+        language: 0.05
+        experience: 0.1
+        alignment: 0.1
+      thresholds:
+        apply: 0.24
+        consider: 0.14
+
+job_sources:
+  use_manual_files: true
+  use_ats: false
+  use_job_pages: false
+  ats_companies:
+    - provider: greenhouse
+      board: example-company
+      company: Example Company
+  job_pages: []
+  fetch_timeout_seconds: 10
+  max_per_company: 0
+  max_total: 0
+
+adapters:
+  stepstone:
+    enabled: false
+    source_path: data/jobs/stepstone_jobs.json
+    max_total: 0
+  linkedin:
+    enabled: false
+    source_path: data/jobs/linkedin_jobs.json
+    max_total: 0
+  rss:
+    enabled: false
+    feeds:
+      - source_id: sample_feed
+        feed_url: https://example.com/jobs/rss.xml
+        company: Example Feed
+        intent_label: consulting_advisory
+        location: Global
+        max_total: 50
+        rationale: "Sample RSS feed for testing."
+
+schedule:
+  daily: false
+  hour: 9
+  frequency: "24h"
+
+job_filters:
+  derived_enabled: true
+  derived_max_keywords: 40
+  include_keywords:
+    - ai
+    - machine learning
+    - security
+    - governance
+    - architecture
+    - strategy
+  exclude_keywords:
+    - oil
+    - drilling
+  location_allow:
+    - Europe
+    - EU
+    - UK
+    - Germany
+    - Remote
+    - Hybrid
+  location_block:
+    - Hong Kong
+    - China
+
+review:
+  use_votes: true
+
+drafting:
+  require_review: true
+  max_skills_in_letter: 3
+  attachments: [your_cv.pdf]
+  letter_date: ""
+  role_families: [engineering, data, strategy]
+  default_role_family: ""
+
+submission:
+  enabled: false
+  mode: draft
+  smtp:
+    enabled: false
+    host: "127.0.0.1"
+    port: 1025
+
+db:
+  enabled: true
+  driver: sqlite
+  env: dev
+  path: db/applicant.db
+  dev_path: db/applicant_dev.db
+
+skills_seed:
+  hard:
+    - AI
+    - ML
+    - NLP
+    - Python
+    - Strategy
+    - Consulting
+    - Data Analysis
+    - Product
+    - Cloud
+    - Automation
+  soft:
+    - Leadership
+    - Communication
+    - Stakeholder Management
+    - Problem Solving
+    - Teamwork
