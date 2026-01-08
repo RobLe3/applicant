@@ -84,3 +84,11 @@ The next phases extend reliability, personalization, integration, and UX while p
 **System properties**
 - Review-gated autonomy remains mandatory.
 - Local-first data control; optional cloud sync is opt-in and export-based.
+
+## High-Level Additions Needed (Post v0.5)
+- Broader discovery and intelligence: expand beyond ATS/RSS/manual with opt-in, ToS-compliant aggregation and semantic search across career sites; add proactive opportunity signals (e.g., funding/news monitoring for unposted roles).
+- Advanced matching and personalization: deeper feedback loops, role trajectory modeling, and company/culture alignment inference.
+- Multi-device support: optional encrypted sync or self-hosted relay while keeping local-first defaults.
+- End-to-end automation with safeguards: optional assisted submission and follow-up tracking, always gated by human approval and audit logs.
+- Ecosystem integrations: calendar/email linking for deadlines and follow-ups, portfolio linking, and export to professional networks.
+- UX maturity: evolve the local UI into a polished, responsive app-like experience (desktop/mobile-friendly).

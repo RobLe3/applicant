@@ -118,6 +118,33 @@ jobs { job_id: { skills, abstractions } }
 - Shows prerequisites, matches, and full posting text.
 - Votes stored in SQLite or `data/output/review_votes.json`.
 
+## Detailed-Level Additions Needed (Post v0.5)
+**Job ingestion and coverage**
+- Add adapters for additional ATS sources (e.g., Workable, BambooHR) and a generic HTML parser.
+- Improve requirement extraction so coverage is not frequently 0.00 (better parsing and evidence matching).
+
+**Scoring and feedback**
+- Add more granular feedback tags and decay over time.
+- Add committee-style review for edge-case scoring and intent calibration per role family.
+
+**Application generation**
+- Expand prompt templates (more languages, role variants, and tailored variants).
+- Support richer outputs (tailored resumes and questionnaire answers).
+
+**UI and UX polish**
+- Improve keyboard navigation, search/filter ergonomics, and preview quality.
+- Persist user UI preferences (e.g., dark mode, filters).
+- Add visual dashboards (fit distribution, pipeline funnel).
+
+**Setup and maintainability**
+- Add `requirements.txt`, sample `config/applicant.yaml`, and LICENSE.
+- Expand unit/integration coverage for regex, embeddings, and end-to-end pipeline.
+- Add containerization for onboarding (Docker).
+
+**Reliability and edge cases**
+- Harden exception handling and sanitization.
+- Rate limit crawl requests and improve offline model management.
+
 ## Post-MVP Architecture Extensions (Phases 5-8)
 **Reliability + Testing**
 - Golden output regression suite for the full pipeline.

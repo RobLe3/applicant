@@ -18,6 +18,7 @@ Build and maintain Applicant as a review-driven job discovery system that extrac
 - Inputs live in `Sources/` and `data/jobs/`.
 - Outputs are written to `data/output/`.
 - Decisions are stored in SQLite under `db/` (dev/prod).
+- Remote origin (SSH): `git remote set-url origin git@github.com:RobLe3/applicant.git`
 
 ## Review Gate
 - Every generated package must include a `review_required: true` flag.
